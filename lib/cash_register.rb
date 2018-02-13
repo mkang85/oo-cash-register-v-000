@@ -23,7 +23,7 @@ class CashRegister
     end
 
     self.last_transaction = price * quantity
-    "#{self.last_transaction}"
+    puts "#{self.last_transaction}"
     binding.pry
   end
 
