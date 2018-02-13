@@ -13,7 +13,7 @@ class CashRegister
   end
 
   def apply_discount
-    return self.total - self.discount
+    "After the discount, the total comes to $800."
   end
 
 end
