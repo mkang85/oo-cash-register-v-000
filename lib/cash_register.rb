@@ -18,7 +18,6 @@ class CashRegister
       self.items_array << title
       i += 1
     end
-    binding.pry
   end
 
   def apply_discount
