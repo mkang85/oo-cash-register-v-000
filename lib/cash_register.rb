@@ -28,7 +28,7 @@ ITEMS = []
   end
 
   def items
-
+    ITEMS
   end
 
 end
