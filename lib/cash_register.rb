@@ -18,6 +18,7 @@ class CashRegister
       self.items_array << title
       i += 1
     end
+    self.total
   end
 
   def apply_discount
