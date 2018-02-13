@@ -21,12 +21,10 @@ class CashRegister
     end
   end
 
-  def items
-    ITEMS
-  end
+
 
   def void_last_transaction
-    self.total - self.add_item 
+    self.total - self.add_item
   end
 
 end
