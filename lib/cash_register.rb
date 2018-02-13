@@ -23,9 +23,9 @@ class CashRegister
   end
 
   def items
-    ITEMS = []
-    ITEMS << self.add_item
-    ITEMS
+    what =[]
+    what << self.add_item
+    what
   end
 
 end
