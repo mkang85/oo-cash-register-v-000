@@ -25,6 +25,7 @@ class CashRegister
   def items
     ITEMS = []
     ITEMS << self.add_item
+    ITEMS
   end
 
 end
