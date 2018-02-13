@@ -21,7 +21,10 @@ class CashRegister
       self.items_array << title
       i += 1
     end
+
     self.last_transaction = price * quantity
+    puts "#{self.last_transaction}"
+    binding.pry
   end
 
   def apply_discount
