@@ -16,6 +16,7 @@ ITEMS = []
     i = 0
     while i < quantity
       ITEMS << title
+      i += 1
     end
   end
 
