@@ -13,7 +13,11 @@ class CashRegister
   end
 
   def apply_discount
-    "After the discount, the total comes to $800."
+    if self.discount == 0
+      "There is no discount to apply."
+    else
+      "After the discount, the total comes to #{self.total - self.discount}"
+    end
   end
 
 end
