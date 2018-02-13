@@ -17,7 +17,7 @@ class CashRegister
     while i < quantity
       self.items_array << title
       i += 1
-  end
+    end
     binding.pry
   end
 
